@@ -9,7 +9,7 @@ import { BsBell } from "react-icons/bs";
 
 function Navbar() {
   return (
-    <nav className=' bg-[#161b22] p-4 flex justify-between items-center '>
+    <nav className='bg-[#2d333b] p-3 flex justify-between items-center '>
       {/* Menu button for mobile screen */}
       <div className='md:hidden '>
         <AiOutlineMenu className='h-6 w-6 hover:text-gray-400  text-gray-100 ' />
