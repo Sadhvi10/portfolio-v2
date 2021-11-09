@@ -14,10 +14,13 @@ export default function Home() {
 
       {/* Navbar */}
       <Navbar />
-      <div className='bg-[#22272e] h-screen'>
+
+      <div className='bg-[#2d333b] sm:bg-[#22272e] h-screen'>
         {/* Sidebar */}
         <Sidebar />
+
         {/* Article */}
+
         {/* Footer */}
         <Footer />
       </div>
