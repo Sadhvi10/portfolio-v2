@@ -57,14 +57,14 @@ function Sidebar() {
       <div className='flex space-x-1 items-center md:flex-col lg:flex-row  mt-5'>
         <div className='flex items-center space-x-2'>
           <FiUsers className='h-3 w-3 text-gray-600' />
-          <p className='text-gray-600 text-sm md:inline-flex'>
-            <span className='text-gray-200'>5 </span>followers
+          <p className='text-gray-600 text-sm md:inline-flex  '>
+            <span className='text-gray-200'>5 </span> followers
           </p>
         </div>
         <p className='text-gray-200 md:hidden lg:inline-flex'>&bull;</p>
         <div className='flex items-center space-x-2'>
           <p className='text-gray-600 text-sm md:inline-flex'>
-            <span className='text-gray-200'>4 </span>following
+            <span className='text-gray-200'>4 </span> following
           </p>
         </div>
         <p className='text-gray-200 md:hidden lg:inline-flex'>&bull;</p>
