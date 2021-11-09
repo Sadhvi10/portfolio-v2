@@ -1,13 +1,22 @@
 import Image from "next/image";
-import { AiFillGithub, AiOutlinePlus, AiFillCaretDown } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiOutlinePlus,
+  AiFillCaretDown,
+  AiOutlineMenu,
+} from "react-icons/ai";
 import { BsBell } from "react-icons/bs";
 
 function Navbar() {
   return (
-    <nav className=' bg-[#161b22] p-3 flex justify-between items-center '>
-      {/* Left side */}
+    <nav className=' bg-[#161b22] p-4 flex justify-between items-center '>
+      {/* Menu button for mobile screen */}
+      <div className='md:hidden '>
+        <AiOutlineMenu className='h-6 w-6 hover:text-gray-400  text-gray-100 ' />
+      </div>
+      {/* Center */}
       <div className='flex items-center'>
-        <AiFillGithub className='h-8 w-8 mr-4 rounded-full text-gray-100' />
+        <AiFillGithub className='h-10 w-10 hover:text-gray-400 mr-4 rounded-full text-gray-100' />
         <input
           type='text'
           placeholder='Search or jump to...'
@@ -21,11 +30,11 @@ function Navbar() {
       {/* Right side */}
       <div className='flex items-center space-x-4 cursor-pointer  '>
         <BsBell className='h-4 w-4 text-gray-100 hover:text-gray-400' />
-        <div className='flex items-center group'>
+        <div className='hidden md:flex items-center group'>
           <AiOutlinePlus className='h-4 w-4 mr-1 text-gray-100 group-hover:text-gray-400' />
           <AiFillCaretDown className='h-2 w-2 text-gray-100 group-hover:text-gray-400' />
         </div>
-        <div className='flex items-center space-x-1 group'>
+        <div className='hidden md:flex items-center space-x-1 group'>
           <Image
             src='https://avatars.githubusercontent.com/u/65889688?v=4'
             width={22}
