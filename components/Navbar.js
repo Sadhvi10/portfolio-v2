@@ -10,13 +10,9 @@ import { BsBell } from "react-icons/bs";
 function Navbar() {
   return (
     <nav className='bg-[#2d333b] p-3 flex justify-between items-center '>
-      {/* Menu button for mobile screen */}
-      <div className='md:hidden '>
-        <AiOutlineMenu className='h-6 w-6 hover:text-gray-400  text-gray-100 ' />
-      </div>
-      {/* Center */}
+      {/* Left Side */}
       <div className='flex items-center'>
-        <AiFillGithub className='h-10 w-10 hover:text-gray-400 mr-4 rounded-full text-gray-100' />
+        <AiFillGithub className='h-8 w-8 hover:text-gray-400 mr-4 rounded-full text-gray-100' />
         <input
           type='text'
           placeholder='Search or jump to...'
@@ -27,7 +23,7 @@ function Navbar() {
         <p className='nav-tags'>Marketplaces</p>
         <p className='nav-tags'>Explore</p>
       </div>
-      {/* Right side */}
+      {/* Right Side */}
       <div className='flex items-center space-x-4 cursor-pointer  '>
         <BsBell className='h-4 w-4 text-gray-100 hover:text-gray-400' />
         <div className='hidden md:flex items-center group'>
