@@ -7,9 +7,9 @@ import {
   AiOutlineInstagram,
   AiFillGithub,
 } from "react-icons/ai";
-function Sidebar() {
+function Sidebar({ user }) {
   return (
-    <aside className='p-10 flex flex-col'>
+    <aside className='p-2 flex flex-col'>
       {/* Image */}
       <div className='md:block flex items-center space-x-6'>
         <div className='block md:hidden'>
@@ -38,38 +38,43 @@ function Sidebar() {
         </div>
 
         {/* Name & Username */}
-        <div>
-          <h1 className='font-bold text-gray-200 text-2xl'>Sadhvi Pugaonkar</h1>
+        <div className='px-2'>
+          <h1 className='font-bold text-gray-200 text-2xl'>{user?.name}</h1>
           <Link href='https://github.com/Sadhvi10'>
-            <h4 className='font-light text-gray-600 text-xl'>Sadhvi10</h4>
+            <h4 className='font-light text-gray-600 text-xl'>{user?.login}</h4>
           </Link>
         </div>
       </div>
 
-      {/* Description */}
-      <p className='text-sm text-gray-300 mt-4'>
-        Self-taught 📚 Full-Stack Web Dev ⚡ • Creator & Engineer 🎓 • Mumbaikar
-        🙌
-      </p>
+      {/* User Bio */}
+      <p className='text-sm text-gray-300 mt-4'>{user?.bio}</p>
 
       {/* Following stats */}
-      <div className='flex space-x-1 items-center md:flex-col lg:flex-row  mt-5'>
-        <div className='flex items-center space-x-2'>
-          <FiUsers className='h-3 w-3 text-gray-600' />
-          <p className='text-gray-600 text-sm md:block  '>
-            <span className='text-gray-200'>5 </span> followers
+      <div className='flex  items-center md:flex-col lg:flex-row  mt-5'>
+        <div className='flex items-center'>
+          <FiUsers className='h-3 w-3 text-gray-600 mr-1' />
+          <p className='text-gray-600 text-sm md:inline-flex  '>
+            <span className='text-gray-200 mr-1'>{user?.followers}</span>{" "}
+            followers
           </p>
         </div>
-        <p className='text-gray-200 md:hidden lg:inline-flex'>&bull;</p>
-        <div className='flex items-center space-x-2'>
-          <p className='text-gray-600 text-sm md:block'>
-            <span className='text-gray-200'>4 </span> following
+        <p className='text-gray-200 md:hidden lg:inline-flex mx-1 text-xs '>
+          &bull;
+        </p>
+        <div className='flex items-center'>
+          <p className='text-gray-600 text-sm md:inline-flex'>
+            <span className='text-gray-200 mr-1'>{user?.following}</span>{" "}
+            following
           </p>
         </div>
-        <p className='text-gray-200 md:hidden lg:block'>&bull;</p>
-        <div className='flex items-center space-x-2'>
-          <FiStar className='h-3 w-3 text-gray-600' />
-          <p className='text-gray-200 text-sm md:inline-flex'>1</p>
+        <p className='text-gray-200 md:hidden lg:inline-flex text-xs mx-1'>
+          &bull;
+        </p>
+        <div className='flex items-center'>
+          <FiStar className='h-3 w-3 text-gray-600 mr-1' />
+          <p className='text-gray-600 text-sm md:inline-flex'>
+            <span className='text-gray-200'>1</span>
+          </p>
         </div>
       </div>
 

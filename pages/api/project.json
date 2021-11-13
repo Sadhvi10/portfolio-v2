@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Facebook Clone",
+    "description": "This clone is built using React. The frontend is built using Next.js & Tailwind CSS. All the uploaded posts are stored in Firebase. These posts are then rendered on the frontend.",
+    "image": "https://i.ibb.co/w4XpgKt/fb-clone.png",
+    "live": "https://facebook-clone-v2.vercel.app/",
+    "source": "https://github.com/Sadhvi10/facebook-clone",
+    "tags": ["react", "firebase", "nextjs"]
+  },
+  {
+    "id": 2,
+    "name": "Cryptocurrency Tracker",
+    "description": "A Cryptocurrency finance price trackering app created using React and TailwindCSS. We can search currencies and have it displayed on the browser. Also, the prices will be updated live whenever we refresh the page. We get all this data from a public API.",
+    "image": "https://i.ibb.co/60T0gyR/crypto-currency.png",
+    "live": "https://cryptocurrency-tracker-react-v1.netlify.app/",
+    "source": "https://github.com/Sadhvi10/cryptocurrency-tracker",
+    "tags": ["react", "tailwind"]
+  },
+  {
+    "id": 3,
+    "name": "Hulu Clone",
+    "description": "Hulu clone build using React (Next.js & TailwindCSS, Responsive). In this project, we are fetching data from TMDB api which is free to use. You can request a free API key by logging in to your account on TMDB.",
+    "image": "https://i.ibb.co/0y79gfy/hulu-clone.png",
+    "live": "https://hulu-clone-version2.vercel.app/",
+    "source": "https://github.com/Sadhvi10/hulu-clone",
+    "tags": ["react", "nextjs", "tmdb", "tailwind"]
+  },
+  {
+    "id": 4,
+    "name": "Google Clone",
+    "description": "Google clone build using React (Next.js & TailwindCSS, Responsive). In this project, we are fetching data from Google api which is free to use. You can request a free API key by logging in to your account on Google. This build also includes a feature called pagination which renders 2 pages on user request.",
+    "image": "https://i.ibb.co/JrCGCDw/google-clone.png",
+    "live": "https://google-2-0.vercel.app/",
+    "source": "https://github.com/Sadhvi10/google-2.0",
+    "tags": ["react", "pagination", "ssr", "nextjs", "google-api"]
+  }
+]
