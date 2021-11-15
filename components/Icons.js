@@ -2,22 +2,22 @@ import {
   DiReact,
   DiMongodb,
   DiNodejsSmall,
-  DiPhp,
-  DiPython,
-  DiMysql,
-  DiSass,
+  // DiPhp,
+  // DiPython,
+  // DiMysql,
+  // DiSass,
   DiJavascript,
 } from "react-icons/di";
 import {
   SiFirebase,
-  SiMaterialUi,
-  SiRedux,
+  // SiMaterialUi,
+  // SiRedux,
   SiTailwindcss,
   SiNextDotJs,
   SiSocketDotIo,
   SiTwilio,
 } from "react-icons/si";
-import { BsFillBootstrapFill } from "react-icons/bs";
+//import { BsFillBootstrapFill } from "react-icons/bs";
 
 const Icons = ({ tag }) => {
   return (

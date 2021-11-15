@@ -27,6 +27,7 @@ function Navbar() {
         </div>
         <div className='hidden md:flex items-center space-x-1 group'>
           <Image
+            alt='me'
             src='https://avatars.githubusercontent.com/u/65889688?v=4'
             width={22}
             height={22}

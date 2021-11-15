@@ -9,6 +9,6 @@
 
 @layer components {
   .nav-tags {
-    @apply hidden md:inline-flex ml-4 cursor-pointer text-gray-100 text-sm space-x-4  font-semibold;
+    @apply hidden md:inline-flex ml-4 cursor-pointer text-gray-100 text-sm space-x-4 hover:text-gray-400 font-semibold;
   }
 }

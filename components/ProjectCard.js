@@ -10,6 +10,7 @@ function ProjectCard({ project }) {
         src={project?.image}
         width={500}
         height={300}
+        alt='projects'
       />
       <h2 className='text-gray-300 font-semibold text-xl px-2 py-2 sm:text-lg'>
         {project?.name}

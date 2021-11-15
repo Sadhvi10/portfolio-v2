@@ -14,6 +14,7 @@ function Sidebar({ user }) {
       <div className='md:block flex items-center space-x-6'>
         <div className='block md:hidden'>
           <Image
+            alt='me'
             src='https://avatars.githubusercontent.com/u/65889688?v=4'
             width={90}
             height={90}
@@ -22,6 +23,7 @@ function Sidebar({ user }) {
         </div>
         <div className='hidden md:block lg:hidden'>
           <Image
+            alt='me'
             src='https://avatars.githubusercontent.com/u/65889688?v=4'
             width={150}
             height={150}
@@ -30,6 +32,7 @@ function Sidebar({ user }) {
         </div>
         <div className='hidden md:hidden lg:block'>
           <Image
+            alt='me'
             src='https://avatars.githubusercontent.com/u/65889688?v=4'
             width={250}
             height={250}
