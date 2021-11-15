@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Icons from "./Icons";
 
-function ProjectCard({ project }) {
+const ProjectCard = ({ project }) => {
   return (
     <div key={project?.id} className='border border-gray-700 h-full rounded'>
       <Image
@@ -36,6 +36,6 @@ function ProjectCard({ project }) {
       </div>
     </div>
   );
-}
+};
 
 export default ProjectCard;

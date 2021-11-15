@@ -2,7 +2,7 @@ import Link from "next/dist/client/link";
 import { AiOutlineEye } from "react-icons/ai";
 import { FiStar } from "react-icons/fi";
 
-function Repository({ repo }) {
+const Repository = ({ repo }) => {
   return (
     <section className='mt-4 border border-gray-800 text-gray-500'>
       {console.log(repo)}
@@ -38,6 +38,6 @@ function Repository({ repo }) {
       ))}
     </section>
   );
-}
+};
 
 export default Repository;

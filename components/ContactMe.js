@@ -2,7 +2,7 @@ import { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 
-function ContactMe() {
+const ContactMe = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -68,6 +68,6 @@ function ContactMe() {
       </form>
     </div>
   );
-}
+};
 
 export default ContactMe;

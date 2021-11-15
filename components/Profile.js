@@ -1,6 +1,6 @@
 import GitHubCalendar from "react-github-calendar";
 
-function Profile() {
+const Profile = () => {
   return (
     <div>
       <section className='border border-gray-700 p-3 rounded my-6'>
@@ -130,6 +130,6 @@ function Profile() {
       </div>
     </div>
   );
-}
+};
 
 export default Profile;

@@ -7,7 +7,8 @@ import {
   AiOutlineInstagram,
   AiFillGithub,
 } from "react-icons/ai";
-function Sidebar({ user }) {
+
+const Sidebar = ({ user }) => {
   return (
     <aside className='p-2 flex flex-col'>
       {/* Image */}
@@ -108,6 +109,6 @@ function Sidebar({ user }) {
       </div>
     </aside>
   );
-}
+};
 
 export default Sidebar;

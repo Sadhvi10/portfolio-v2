@@ -1,6 +1,6 @@
 import { AiFillGithub } from "react-icons/ai";
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className='p-10 md:p-32'>
       <div className='border-t border-[#768390] p-8 border-opacity-20'>
@@ -24,6 +24,6 @@ function Footer() {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
