@@ -9,10 +9,13 @@ const ContactMe = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("http://localhost:3000/api/submit-form", {
-      method: "POST",
-      body: JSON.stringify({ name, email, message }),
-    });
+    const res = await fetch(
+      "https://sadhvi-pugaonkar.vercel.app/api/submit-form",
+      {
+        method: "POST",
+        body: JSON.stringify({ name, email, message }),
+      }
+    );
 
     if (res.status === 200) {
       toast("Thank you for contacting me!", { type: "success" });
