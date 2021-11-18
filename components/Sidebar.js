@@ -93,16 +93,25 @@ const Sidebar = ({ user }) => {
           <a href='mailto:sadhvip101@gmail.com' target='_blank'>
             <SiGmail className='text-xl text-gray-500 hover:text-gray-400' />
           </a>
-          <a href='https://www.instagram.com/contento_chica10/' target='_blank'>
+          <a
+            href='https://www.instagram.com/contento_chica10/'
+            target='_blank'
+            rel='noreferrer'
+          >
             <AiOutlineInstagram className='text-xl text-gray-500 hover:text-gray-400' />
           </a>
           <a
             href='https://www.linkedin.com/in/sadhvi-pugaonkar-6b62b5169/'
             target='_blank'
+            rel='noreferrer'
           >
             <AiFillLinkedin className='text-xl text-gray-500 hover:text-gray-400' />
           </a>
-          <a href='https://github.com/Sadhvi10' target='_blank'>
+          <a
+            href='https://github.com/Sadhvi10'
+            target='_blank'
+            rel='noreferrer'
+          >
             <AiFillGithub className='text-xl text-gray-500 hover:text-gray-400' />
           </a>
         </div>

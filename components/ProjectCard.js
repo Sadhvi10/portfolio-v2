@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
 
       <div className='flex items-center px-2 py-2'>
         {project?.tags?.map((tag) => (
-          <Icons tag={tag} />
+          <Icons tag={tag} key={tag} />
         ))}
       </div>
       <div className='flex justify-between items-center m-3'>
