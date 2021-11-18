@@ -13,7 +13,7 @@ const Profile = () => {
         </h1>
         <div className='border-t border-gray-700 mt-2 '></div>
         <p className='text-gray-300 text-sm mt-3'>
-          I'm an engineering graduate and also a self-taught full-stack web
+          I&apos;m an engineering graduate and also a self-taught full-stack web
           developer looking for a job opportunity that will help me to gain
           experience in this field.
         </p>
