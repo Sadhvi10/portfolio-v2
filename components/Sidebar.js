@@ -90,7 +90,11 @@ const Sidebar = ({ user }) => {
           React Out Via
         </h2>
         <div className='flex items-center space-x-2 sm:space-x-1'>
-          <a href='mailto:sadhvip101@gmail.com' target='_blank'>
+          <a
+            href='mailto:sadhvip101@gmail.com'
+            target='_blank'
+            rel='noreferrer'
+          >
             <SiGmail className='text-xl text-gray-500 hover:text-gray-400' />
           </a>
           <a
