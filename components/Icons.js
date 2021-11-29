@@ -19,7 +19,7 @@ import {
 } from "react-icons/si";
 import { BsFillBootstrapFill } from "react-icons/bs";
 
-const Icons = ({ tag }) => {
+export default function Icons({ tag }) {
   return (
     <div>
       {tag === "react" && <DiReact className='text-blue-400 text-lg mr-1' />}
@@ -54,6 +54,4 @@ const Icons = ({ tag }) => {
       {tag === "next" && <SiNextDotJs className='text-white mr-1' />}
     </div>
   );
-};
-
-export default Icons;
+}
