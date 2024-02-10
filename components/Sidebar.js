@@ -91,14 +91,14 @@ const Sidebar = ({ user }) => {
         </h2>
         <div className='flex items-center space-x-2 sm:space-x-1'>
           <a
-            href='mailto:sadhvip101@gmail.com'
+            href='mailto:sadhvipugaonkarwork@gmail.com'
             target='_blank'
             rel='noreferrer'
           >
             <SiGmail className='text-xl text-gray-500 hover:text-gray-400' />
           </a>
           <a
-            href='https://www.instagram.com/contento_chica10/'
+            href='https://www.instagram.com/sassysadhviiii/'
             target='_blank'
             rel='noreferrer'
           >
